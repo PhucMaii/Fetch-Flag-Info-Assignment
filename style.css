@@ -1,0 +1,40 @@
+body{
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 50px;
+
+}
+
+.card{
+    background-color: bisque;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+.flag{
+    width: 120px;
+    height: 80px;
+    border-radius: 20px;
+
+}
+
+.population::before{
+    content: "Population: ";
+}
+
+.title{
+    font-size: 50px;
+}
